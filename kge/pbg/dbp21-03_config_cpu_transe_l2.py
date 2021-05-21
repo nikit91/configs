@@ -12,7 +12,7 @@ def get_torchbiggraph_config():
     config = dict(  # noqa
         # I/O data
         entity_path="data/dbp2103_transe_l2",
-        edge_paths=[],
+        edge_paths=["data/dbp2103_transe_l2/train_partitioned"],
         checkpoint_path="model/dbp2103_transe_l2",
         # Graph structure
         entities={"all": {"num_partitions": 1}},
