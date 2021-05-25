@@ -35,7 +35,7 @@ def get_torchbiggraph_config():
         #loss_fn="softmax",
         #lr=0.1,
         num_epochs=4,
-        num_edge_chunks=100,
+        num_edge_chunks=10,
         batch_size=1000,
         num_batch_negs=50,
         num_uniform_negs=50,
